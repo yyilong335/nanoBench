@@ -1,0 +1,1 @@
+sudo ./nanoBench.sh -asm_init "MOV RAX, R14; SUB RAX, 8; MOV [RAX], RAX" -asm "MOV RAX, [RAX]" -config configs/cfg_Skylake_common.txt
